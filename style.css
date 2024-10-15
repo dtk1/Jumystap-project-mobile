@@ -139,6 +139,7 @@
     margin-top: 10px;
     font-size: 54px;
     font-weight: 700;
+    text-align: left;
 }
 .parts3{
     display: flex;
@@ -258,6 +259,8 @@
     padding: 30px 0;
     max-width: 1440px;
     margin: 0 auto;
+    border-radius: 20px;
+
 }
 
 .upper-text {
@@ -307,6 +310,7 @@
     width: 115px;
     font-size: 18px;
     margin: 0;
+    gap: 10px;
     padding: 20px 0px 20px 24px;
 }
 .right-container{
@@ -364,9 +368,11 @@
     padding: 54px 0px 0px 0px;
 }
 .text{
-        font-size: 1rem;
+        font-size: 14px;
         font-family: "Inter", sans-serif;
         padding-bottom: 48px;
+        text-align: center;
+        line-height: 18px;
 }
 .HowitWorks{
     background-color: #E1DEE7;
@@ -404,7 +410,7 @@
         font-size: 32px;
         font-weight: 700;
         line-height: 56px;
-        text-align: center;
+        text-align: left;
 }
 .small-text{
     font-weight: 400;
@@ -442,11 +448,8 @@
         line-height: 28.8px;
         text-align: center;
 }
-.inner-text{
-    margin-top: 32px;
-    margin-bottom: 32px;
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
+.letsgetstarted{
+    font-size: 390px;
     text-align: center;
     line-height: 18px;
 }
@@ -506,13 +509,11 @@ form{
     font-size: 24px;
     font-weight: 600;
     line-height: 28.8px;
-    text-align: left;
 }
 .inner-text{
     margin-top: 32px;
     margin-bottom: 32px;
     font-family: "Inter", sans-serif;
-    text-align: left;
     font-size: 14px;
     line-height: 18px;
 }
@@ -535,7 +536,6 @@ form{
     padding: 0;
     max-width: 1440px;
     margin: 0;
-
 }
 .left-container-footer{
     display: flex;
@@ -569,5 +569,11 @@ form{
     padding: 40px 24px 32px 24px;
     text-align: left;
 }
-
+.howitworks{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+}
 }
